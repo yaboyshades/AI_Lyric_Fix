@@ -10,7 +10,7 @@
   - Conditional IF‐THEN logic + probabilistic weighting 
   - Granularity toggles (`integrated_sheet`, `lyrics_only`, `chart_only`)  
   - ClarificationRequest schema for ambiguity resolution  
-- **See:** [`pip_v1.4_spec.json`](spec/pip_v1.4_spec.json)  
+- **See:** [`pip_v1.4_spec.json`](pip_v1.4_spec.json)  
 
 ## 🛠 Usage
 1. Edit your JSON payload in `examples/`.  
