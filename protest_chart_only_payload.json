@@ -1,0 +1,41 @@
+{
+  "Persona_Core": {
+    "name": "Maggie Rivers",
+    "age": "34",
+    "profession": "Folk singer-activist",
+    "backstory": "Iowa farm girl turned protest troubadour after losing her home in the 2008 crash.",
+    "core_motivations": "Expose injustice funded by American tax dollars."
+  },
+  "Sensory_Matrix": {
+    "location": "Rally stage, autumn evening",
+    "ambient_sounds": "Crowd chants, distant siren",
+    "mood": "Righteous anger"
+  },
+  "Emotional_Catalyst": {
+    "trigger_event_or_memory": "Footage of civilian casualties in Gaza.",
+    "current_emotional_state": "Fury tempered with sorrow."
+  },
+  "Output_Constraints": {
+    "medium": "song",
+    "style_refs": "Johnny Cash directness",
+    "positive_keywords": ["tax","blood","home"],
+    "negative_keywords": ["pickup truck","electric guitar"],
+    "vocal_delivery_style": "gritty, earnest"
+  },
+  "advanced_toggles": {
+    "Intertextual_Limiters": ["Bruce Springsteen"],
+    "Ethical_Guardrails": "PG-13",
+    "Recurrence_Pattern": "single",
+    "outputGranularity": "chart_only"
+  }
+}
+{
+  "info": "[INFO Key: Am | Tempo: 78 BPM | Feel: Steady 4/4 march-pulse]",
+  "chart": [
+    "[INTRO | 1m | 4m | 5 | 1m |]",
+    "[VERSE1 | 1m | 4m | 5 | 1m | 6m | 4m | 5 | 1m |]",
+    "[CHORUS | 4m | 1m | 5 | 6m | 4m | 5 | 1m | 1m |]",
+    "[BRIDGE | 6m | 5 | 4m | 5 |]",
+    "[OUTRO | 1m | 5 | 4m | 1m-hold |]"
+  ]
+}
