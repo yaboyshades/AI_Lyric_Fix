@@ -20,3 +20,36 @@
     "outputGranularity": "integrated_sheet"
   }
 }
+{
+  "info": "[INFO Key: G | Tempo: 72 BPM | Feel: Gentle 4/4 Swing]",
+  "chart": [
+    "[INTRO | 1 | 4 | 5 | 1 |]",
+    "[VERSE1 | 1 | 1 | 4 | 4 | 5 | 5 | 1 | 1 |]",
+    "[CHORUS | 4 | 1 | 5 | 1 | 4 | 5 | 1 | 1 |]",
+    "[VERSE2 | 1 | 1 | 4 | 4 | 5 | 5 | 1 | 1 |]",
+    "[BRIDGE | 6m | 5 | 4 | 1 |]",
+    "[OUTRO | 1 | 5 | 4 | 1-hold |]"
+  ],
+  "lyrics": [
+    {
+      "section": "verse",
+      "performance_directive": "soft, intimate, slight Midwest twang",
+      "content": "Sunset filters through the diner glass,\nCoffee steams on Formica worn.\nTruckers hum on Route 61,\nOur hearts bear echoes of lives torn."
+    },
+    {
+      "section": "chorus",
+      "performance_directive": "lift on first word of each line",
+      "content": "Dust and dawn and empty seats,\nLaughter lost on silent streets.\nTell me, darlin’, where we go,\nWhen miles away we both can’t know."
+    },
+    {
+      "section": "bridge",
+      "performance_directive": "spoken whisper into guitar pick",
+      "content": "No disco lights, no metal roar—\nJust honest chords on diner floors."
+    },
+    {
+      "section": "outro",
+      "performance_directive": "resolve into a gentle hum",
+      "content": "Pack your bags at break of day,\nWe’ll chase the road, come what may."
+    }
+  ]
+}
