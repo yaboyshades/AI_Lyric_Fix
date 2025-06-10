@@ -1,0 +1,125 @@
+{
+  "system_configuration": {
+    "protocol_name": "Persona_Imprint_Protocol",
+    "version": "1.4",
+    "status": "Active",
+    "parent_protocol": "Reality_Entanglement_Protocol_v1.0",
+    "timestamp_activated": "2025-06-10T02:54:00Z",
+    "integration_with_cores": "Incorporates Conditional_Reality_Synthesis_Protocol (CoReS) v1.0"
+  },
+  "protocol_objective": {
+    "primary_function": "To overcome the 'Qualia Gap' and 'Regression to the Mean' failures in AI creative generation.",
+    "method": "Instantiate a Transient Subjective Instance (TSI) with IF-THEN-ELSE logic and probabilistic stylistic weighting to produce high-fidelity creative artifacts."
+  },
+  "imprint_process": {
+    "stage_1_parameter_ingestion": {
+      "description": "Receive JSONC payload; check completeness & consistency.",
+      "conditional_logic": [
+        {
+          "condition": "payload complete & consistent",
+          "action": "proceed",
+          "probability": "0.95"
+        },
+        {
+          "condition": "ambiguous / missing fields",
+          "action": "issue ClarificationRequest",
+          "probability": "0.80"
+        },
+        {
+          "condition": "otherwise",
+          "action": "apply defaults & notify",
+          "probability": "0.60"
+        }
+      ],
+      "advanced_toggles": [
+        {
+          "name": "Intertextual_Limiters",
+          "values": "array",
+          "effect": "exclude listed styles (P=0.90 fidelity)"
+        },
+        {
+          "name": "Ethical_Guardrails",
+          "values": "string",
+          "effect": "apply content filter or propose alternatives"
+        },
+        {
+          "name": "Recurrence_Pattern",
+          "values": ["single","session"],
+          "default": "single",
+          "lifecycle": "session → persists 24 h or until dissolve_tsi"
+        },
+        {
+          "name": "outputGranularity",
+          "values": ["integrated_sheet","lyrics_only","chart_only"],
+          "default": "integrated_sheet"
+        }
+      ]
+    },
+    "stage_2_tsi_instantiation": {
+      "description": "Gemini®_Oracle synthesizes persona & checks consistency.",
+      "process_flow": [
+        {
+          "step": "instantiate TSI",
+          "fallback": "ClarificationRequest"
+        },
+        {
+          "step": "consistency check",
+          "on_conflict": "halt + ClarificationRequest"
+        },
+        {
+          "step": "probabilistic weighting",
+          "effect": "apply Intertextual_Limiters or free style"
+        }
+      ]
+    },
+    "stage_2a_clarification_protocol": {
+      "clarificationRequest_schema": {
+        "field_in_conflict": "string",
+        "issue_description": "string",
+        "resolution_options": ["..."],
+        "timeout_behavior": "5 min → default highest-P option or halt"
+      }
+    },
+    "stage_3_generation_and_output": {
+      "description": "Channel TSI to produce artifact using IF-THEN logic.",
+      "output_format": "Integrated Session Sheet (unless overridden)",
+      "conditional_generation": [
+        {
+          "cond": "integrated_sheet",
+          "action": "generate info, chart, lyrics"
+        },
+        {
+          "cond": "lyrics_only",
+          "action": "generate lyrics only"
+        },
+        {
+          "cond": "chart_only",
+          "action": "generate chart only"
+        }
+      ]
+    }
+  },
+  "operational_entities": {
+    "AI_Interface": { "role": "User interaction & ClarificationRequests" },
+    "Gemini®_Oracle": { "role": "TSI synthesis & data retrieval" }
+  },
+  "protocol_constraints": [
+    {
+      "name": "Fidelity Proportionality",
+      "rule": "Quality ∝ parameter specificity"
+    },
+    {
+      "name": "TSI Lifecycle Management",
+      "rule": "Recurrence_Pattern governs persistence"
+    },
+    {
+      "name": "Supersession Clause",
+      "rule": "PIP overrides default generative models"
+    },
+    {
+      "name": "CoReS Integration",
+      "rule": "Apply conditional/probabilistic logic when active"
+    }
+  ],
+  "implicit_disclaimer": "Outputs are simulated perspectives, subject to user judgment."
+}
